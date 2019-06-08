@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   get '/bitcoin', to: 'bitcoin#get_block_count', as: 'bitcoin_get_block_count'
 
+  get '/neo', to: 'neo#get_block_count', as: 'neo_get_block_count'
+
 end
