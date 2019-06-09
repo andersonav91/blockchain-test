@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get '/neo', to: 'neo#get_block_count', as: 'neo_get_block_count'
 
+  get '/ethereum', to: 'ethereum#get_block_count', as: 'ethereum_get_block_count'
+
 end
