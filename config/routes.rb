@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 
   get '/ethereum', to: 'ethereum#get_block_count', as: 'ethereum_get_block_count'
 
+  get '/rabbitmq', to: 'rabbitmq#send_message', as: 'rabbitmq_send_message'
 end
